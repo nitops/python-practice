@@ -1,4 +1,7 @@
 """" This is a multiline comment"""
+''' this is also comment'''
+# this is a comment
+
 
 str1 = "nitin"
 
@@ -25,3 +28,14 @@ name = 'Myra'
 age = 5
 
 print("My name is {0} and my age is {1}".format(name, age))
+
+""" string concatenation"""
+print("nitin " + "jain")
+
+""" Inserting a string"""
+print("Hello" + " " + "World")
+
+""" type conversion in String - when we sum a integer with String it need to be type converted explicitly"""
+print("My name is" + " Nitin" + " and I got " + str(15) + " years of experience")
+x = 15
+print("I got " + str(x) + " years of experience")
