@@ -10,4 +10,5 @@ with open(file_name, 'w') as file:  # with 'w' we ensure file is open in write m
 
 with open(file_name, 'a') as file:  # with 'a' we ensure file is open in append mode
     file.write("...adding more content to existing file")
-    file.close()
+    file.close()  # this is now redundant and can be removed as python implicitly takes care to  close as part of
+    # "with" function.
