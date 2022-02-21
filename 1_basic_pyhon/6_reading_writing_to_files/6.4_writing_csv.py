@@ -14,6 +14,10 @@ big_list = [{'name': 'Fredrick Stein', 'userid': 6712359021, 'is_admin': False},
             {'name': 'Greely Plonk', 'userid': 15890235, 'is_admin': False},
             {'name': 'Dendris Stulo', 'userid': 572189563, 'is_admin': True}]
 
-with open('output.csv', 'w') as file:
+with open('output.csv', 'w', newline='', encoding='utf-8') as file:
     fields = ['name', 'userid', 'is_admin']
     output_writer = csv.DictWriter(file, fieldnames=fields)
+
+    output_writer.writeheader()
+    for item in big_list:
+        output_writer.writerow(item)
