@@ -7,4 +7,4 @@ print(list1)  # output: range(0, 3)
 print(type(list1))
 
 """ converting to list"""
-print(list(list1))  # output: [0, 1, 2]
+print(list(list1))  # output: [0, 1_first_class_fucntions, 2]

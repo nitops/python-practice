@@ -5,7 +5,7 @@ The function should add the last two elements of lst together and append the res
 
 three times and then return lst.
 
-For example, if lst started as [1, 1, 2], the final result should be [1, 1, 2, 3, 5, 8]. """
+For example, if lst started as [1_first_class_fucntions, 1_first_class_fucntions, 2], the final result should be [1_first_class_fucntions, 1_first_class_fucntions, 2, 3, 5, 8]. """
 
 
 def add_lst(lst):

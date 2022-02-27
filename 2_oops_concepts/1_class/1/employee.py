@@ -18,11 +18,12 @@ print(emp2.email)
 
 # print full name of employee
 print(
-    emp1.fullname())  # here we are calling method via instance of class so it will pass instance name as 'self' automatically
+    emp1.fullname())  # here we are calling method via instance of class, so it will pass instance name as 'self'
+# automatically
 
 # print full name via class directly
 print(Employee.fullname(
-    emp1))  # here we are calling method via class name so instance of class need to be explictly passed
+    emp1))  # here we are calling method via class name so instance of class need to be explicitly passed
 # as it doesn't know which instance to run with the given method.
 
 """ infact in the background emp1.fullname() is transformed into Employee.fullname(emp1) when method is invoked"""

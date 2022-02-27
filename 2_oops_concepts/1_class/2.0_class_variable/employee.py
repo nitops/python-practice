@@ -48,3 +48,14 @@ print(Employee.raise_amount)
 print(emp3.pay)
 Employee.apply_raise(emp3)
 print(emp3.pay)  # note that here raise of 5% is applied for emp3 but not 4%
+
+''' output: 
+4
+50000
+52000
+70000
+72800
+1_first_class_fucntions.04
+60000
+63000
+'''
