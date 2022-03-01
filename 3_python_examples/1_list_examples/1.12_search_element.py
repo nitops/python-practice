@@ -1,4 +1,5 @@
 """ Given an array arr[] of n elements, write a Python function to search a given element x in arr[] """
+""" this is also called linear search """
 
 l = [1, 2, 3, 4, 4, 5, 5, 6, 1]
 
