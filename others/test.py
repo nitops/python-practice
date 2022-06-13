@@ -3,13 +3,8 @@
 # print("GeeksforGeeks", end=' ')
 
 
-def make_printer(msg):
-    def printer():
-        print(msg)
+print("hello")
+print("")
+print()
 
-    return printer
-
-
-printer = make_printer('Foo!')
-printer()
-print(make_printer("Jain").__name__)
+print("bye")
