@@ -34,4 +34,9 @@
 ## Decorator Examples
 
 
+## Other problems
 
+- length of diagonal for a triangle using math function
+  - 2_length_of_diagonal
+
+- 

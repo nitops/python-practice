@@ -25,6 +25,9 @@ print(df['members'].apply(pd.Series))
 print(pd.concat([df['members'].apply(pd.Series), df.drop('members', axis=1)], axis=1))
 
 """
+reference:
+https://towardsdatascience.com/how-to-best-work-with-json-in-python-2c8989ff0390
+https://pandas.pydata.org/docs/reference/api/pandas.json_normalize.html
 same output as above can be acheived as follows:
 record_path contains the column that we want parsed out.
 meta is a list of columns we want to keep for the dataframe.
